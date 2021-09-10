@@ -1,8 +1,6 @@
 import npeg
 
-import ansi_keywords
 
-export ansi_keywords
 grammar "sql":
   Optional(x) <- ?x
   # %type <node>  stmt toplevel_stmt schema_stmt routine_body_stmt
